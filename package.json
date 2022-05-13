@@ -1,0 +1,23 @@
+{
+  "name": "hospital-management-system-api",
+  "version": "1.0.0",
+  "description": "This is our final year project. It is built on the basis of our idea to make peoples life more easier ",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "proxy": "http://localhost:3000",
+  "author": "TunTun",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
